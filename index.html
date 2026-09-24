@@ -3,78 +3,83 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LambanoChile — El Reino de los cielos está en ti</title>
-<meta name="description" content="LambanoChile — Derriba paradigmas y conoce a Jesús Glorificado.">
+<title>LambanoChile.com — Jesús Glorificado</title>
+<meta name="description" content="LambanoChile.com — Derriba paradigmas, explora el mensaje de Jesús Glorificado y conoce el libro El regreso de la chispa divina frente al secuestro de la religión.">
 <style>
-:root{--blue:#19c8ff;--deep:#020b14;--panel:#061827;--white:#f5fbff}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#02070c;color:var(--white);font-family:Arial,Helvetica,sans-serif}
-nav{position:fixed;top:0;left:0;right:0;z-index:10;background:rgba(2,8,15,.92);backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:space-between;padding:14px 5%;border-bottom:1px solid #123449}
-.logo{font-weight:900;font-size:24px}.logo span{color:var(--blue)}
-nav a{color:white;text-decoration:none;margin-left:24px;font-weight:700;font-size:14px}nav a:hover{color:var(--blue)}
-.hero{min-height:100vh;padding:86px 7% 60px;display:flex;align-items:flex-end;background:
-linear-gradient(180deg,rgba(0,8,16,.15) 0%,rgba(0,0,0,.25) 42%,#02070c 100%),
-url("lambanochile.jpg") center top/cover no-repeat}
-.hero-content{max-width:760px;padding:35px 0}.hero h1{font-size:clamp(42px,7vw,88px);line-height:.95;margin:0 0 22px;text-shadow:0 0 25px #12bfff}.hero p{font-size:clamp(18px,2.2vw,27px);font-weight:700;line-height:1.45}.btn{display:inline-block;background:var(--blue);color:#001018;text-decoration:none;padding:14px 22px;border-radius:30px;font-weight:900;margin-top:10px}
-section{padding:75px 7%}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{background:linear-gradient(145deg,#071c2c,#030d17);border:1px solid #0bbcf2;border-radius:16px;padding:28px}.card h3{color:var(--blue)}
-.feature{background:#061827}.book{display:grid;grid-template-columns:1fr 2fr;gap:35px;align-items:center}.book-box{min-height:280px;border:1px solid #159fd0;border-radius:16px;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle,#103b59,#02070c);font-size:32px;font-weight:900;text-align:center;padding:25px}
+:root{--blue:#19c8ff;--deep:#02070c;--panel:#061827;--white:#f5fbff;--muted:#b7c9d4}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--deep);color:var(--white);font-family:Arial,Helvetica,sans-serif;line-height:1.55}
+a{color:inherit}nav{position:fixed;top:0;left:0;right:0;z-index:20;background:rgba(2,8,15,.94);backdrop-filter:blur(10px);display:flex;align-items:center;justify-content:space-between;padding:15px 5%;border-bottom:1px solid #123449}.logo{font-weight:900;font-size:24px;letter-spacing:.3px}.logo span{color:var(--blue)}.navlinks a{color:#fff;text-decoration:none;margin-left:22px;font-weight:700;font-size:14px}.navlinks a:hover{color:var(--blue)}
+.hero{min-height:100svh;padding:92px 6% 48px;display:flex;align-items:flex-end;background:linear-gradient(180deg,rgba(0,8,16,.08) 0%,rgba(0,0,0,.08) 48%,#02070c 100%),url("lambanochile.jpg") center top/cover no-repeat}.hero-content{max-width:700px;padding:20px 0}.eyebrow{display:inline-block;color:var(--blue);font-weight:900;letter-spacing:2px;margin-bottom:10px}.hero h1{font-size:clamp(36px,7vw,76px);line-height:.98;margin:0 0 18px;text-shadow:0 0 22px rgba(25,200,255,.55)}.hero p{font-size:clamp(18px,2.2vw,26px);font-weight:700;line-height:1.4;text-shadow:0 2px 14px #000}.btn{display:inline-block;background:var(--blue);color:#001018;text-decoration:none;padding:14px 23px;border-radius:30px;font-weight:900;margin-top:12px;box-shadow:0 8px 30px rgba(25,200,255,.18)}.btn:hover{transform:translateY(-1px)}
+section{padding:78px 7%}.intro{max-width:850px}.intro h2,section h2{font-size:clamp(30px,5vw,48px);margin:0 0 15px}.intro>p{font-size:clamp(18px,2.2vw,23px);color:#e8f5fa}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:32px}.card{background:linear-gradient(145deg,#071c2c,#030d17);border:1px solid #0bbcf2;border-radius:18px;padding:28px;min-height:190px}.card h3{color:var(--blue);font-size:24px;margin-top:0}.card p{color:#e3eef3;font-size:17px}
+.paradigmas{background:linear-gradient(180deg,#02070c,#061827)}.quote{border-left:4px solid var(--blue);padding:20px 24px;margin:28px 0;background:rgba(7,28,44,.65);border-radius:0 14px 14px 0;font-size:19px}.note{color:var(--muted)}
+.feature{background:#061827}.book{display:grid;grid-template-columns:minmax(260px,420px) 1fr;gap:48px;align-items:center;max-width:1100px;margin:auto}.book-cover{width:100%;display:block;border-radius:16px;border:1px solid #159fd0;box-shadow:0 20px 50px rgba(0,0,0,.45)}.book h2{margin-top:8px}.book-subtitle{font-size:clamp(20px,3vw,28px);font-weight:800}.book p{font-size:18px;color:#e4eff4}.hotmart{font-size:14px;color:#9fdcf0;margin-top:14px}
+.contact{background:#02070c}.contact-box{max-width:900px;background:linear-gradient(145deg,#071c2c,#030d17);border:1px solid #0bbcf2;border-radius:18px;padding:32px}.contact-box p{font-size:18px;color:#e4eff4}
 footer{padding:35px 7%;border-top:1px solid #123449;color:#a9c1ce;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
-@media(max-width:750px){nav{align-items:flex-start}.navlinks{display:none}.hero{min-height:92vh;padding:90px 5% 35px}.cards,.book{grid-template-columns:1fr}section{padding:55px 5%}.hero h1{font-size:46px}}
+@media(max-width:780px){nav{padding:13px 5%}.logo{font-size:21px}.navlinks{display:none}.hero{min-height:94svh;padding:90px 5% 32px;background-position:center top}.hero-content{padding-bottom:8px}.hero h1{font-size:40px}.cards,.book{grid-template-columns:1fr}section{padding:58px 5%}.book{gap:28px}.book-cover{max-width:520px;margin:auto}.card{min-height:auto}}
 </style>
 </head>
 <body>
 <nav>
   <div class="logo">LAMBANO<span>CHILE</span>.COM</div>
   <div class="navlinks">
-    <a href="#inicio">Inicio</a><a href="#mensaje">Jesús Glorificado</a><a href="#paradigmas">Paradigmas</a><a href="#libro">Libros</a><a href="#contacto">Contacto</a>
+    <a href="#inicio">Inicio</a><a href="#jesus">Jesús Glorificado</a><a href="#paradigmas">Paradigmas</a><a href="#libro">Libro</a><a href="#contacto">Contacto</a>
   </div>
 </nav>
 
 <header class="hero" id="inicio">
   <div class="hero-content">
-    <h1>LLEGÓ TU TIEMPO<br>ARREBÁTALO!!!</h1>
-    <p>DERRIBA PARADIGMAS<br>
-    El Reino de los cielos está en ti.<br>
-    En tu interior portas la luz.</p>
-    <a class="btn" href="#mensaje">ENTRAR A LAMBANOCHILE</a>
+    <div class="eyebrow">LAMBANOCHILE.COM</div>
+    <h1>Un espacio para derribar paradigmas.</h1>
+    <p>El Reino de los cielos está en ti.<br>En tu interior portas la luz.</p>
+    <a class="btn" href="#jesus">ENTRAR A LAMBANOCHILE</a>
   </div>
 </header>
 
-<section id="mensaje">
-  <h2>Jesús Glorificado</h2>
-  <p>Un espacio para explorar una lectura espiritual centrada en el mensaje de Jesús Glorificado y en la búsqueda del Reino de los cielos en el interior.</p>
+<section id="jesus">
+  <div class="intro">
+    <h2>Jesús Glorificado</h2>
+    <p>Un espacio para explorar una lectura espiritual centrada en el mensaje de <strong>Jesús Glorificado</strong> y en la búsqueda del Reino de los cielos en el interior.</p>
+  </div>
   <div class="cards">
     <article class="card"><h3>Derriba paradigmas</h3><p>Cuestiona ideas heredadas y examina los textos por ti mismo.</p></article>
     <article class="card"><h3>El Reino está dentro de ti</h3><p>Una invitación a mirar hacia el interior y profundizar en tu experiencia espiritual.</p></article>
-    <article class="card"><h3>Conoce a Jesús Glorificado</h3><p>Materiales, reflexiones y recursos para continuar la búsqueda.</p></article>
+    <article class="card"><h3>Conoce a Jesús Glorificado</h3><p>Reflexiones, materiales y recursos para continuar la búsqueda.</p></article>
   </div>
 </section>
 
-<section id="paradigmas">
-  <h2>Una nueva mirada</h2>
-  <p>“Deja de adorar a un dios que te castiga o pide ofrenda (Jehová)” es parte del mensaje que aparece en la imagen de portada. Esta página puede desarrollar cada afirmación con textos, referencias y argumentos.</p>
+<section class="paradigmas" id="paradigmas">
+  <div class="intro">
+    <h2>Derriba paradigmas</h2>
+    <p>Una invitación a revisar ideas religiosas heredadas, volver a los textos y desarrollar una lectura propia.</p>
+    <div class="quote">“El Reino de los cielos está en ti. En tu interior portas la luz.”</div>
+    <p class="note">Esta sección será el espacio para desarrollar las investigaciones, comparaciones de textos y planteamientos que formarán parte de LambanoChile.</p>
+  </div>
 </section>
 
 <section class="feature" id="libro">
   <div class="book">
-    <div class="book-box">JESÚS<br>GLORIFICADO</div>
+    <div><img class="book-cover" src="jesus-glorificado-libro.jpg" alt="Portada del libro Jesús Glorificado"></div>
     <div>
-      <small style="color:#19c8ff;font-weight:900">LIBRO DESTACADO</small>
+      <small style="color:#19c8ff;font-weight:900;letter-spacing:2px">LIBRO DESTACADO</small>
       <h2>Jesús Glorificado</h2>
-      <p><strong>El regreso de la chispa divina frente al secuestro de la religión.</strong></p>
-      <p>Aquí podemos colocar la descripción del libro, el enlace de Hotmart y un botón de compra o información.</p>
-      <a class="btn" href="#" onclick="alert('Aquí irá el enlace de tu libro.');return false;">VER LIBRO</a>
+      <div class="book-subtitle">El regreso de la chispa divina frente al secuestro de la religión.</div>
+      <p>Una obra que presenta una lectura espiritual centrada en Jesús Glorificado y en la búsqueda del Reino de los cielos en el interior.</p>
+      <p class="hotmart">Disponible en Hotmart.</p>
+      <a class="btn" href="https://hotmart.com/es/marketplace/productos/jesus-glorificado-el-regreso-de-la-chispa-divina/N104902085P" target="_blank" rel="noopener">VER LIBRO EN HOTMART</a>
     </div>
   </div>
 </section>
 
-<section id="contacto">
-  <h2>Contacto</h2>
-  <p>Para consultas, colaboraciones o información:</p>
-  <p><a class="btn" href="mailto:lambanochile.luis@gmail.com">ESCRÍBEME</a></p>
+<section id="contacto" class="contact">
+  <div class="contact-box">
+    <h2>Contacto</h2>
+    <p>Para consultas, colaboraciones o información sobre LambanoChile:</p>
+    <a class="btn" href="mailto:lambanochile.luis@gmail.com">ESCRÍBEME</a>
+  </div>
 </section>
 
 <footer>
-  <div><strong>LAMBANO<span style="color:#19c8ff">CHILE</span>.COM</strong><br>El Reino de los cielos está en ti</div>
+  <div><strong>LAMBANO<span style="color:#19c8ff">CHILE</span>.COM</strong><br>El Reino de los cielos está en ti.</div>
   <div>© 2026 LambanoChile · Todos los derechos reservados.</div>
 </footer>
 </body>
